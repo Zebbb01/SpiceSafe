@@ -1,0 +1,10 @@
+
+.error-message {
+  color: red; /* Error message color */
+  position: absolute;
+  font-size: 14px;
+  top: 53px;
+  bottom: 3px; /* Position the error message just below the input */
+  left: 0;
+  width: 100%; /* Span across the width of the container */
+}

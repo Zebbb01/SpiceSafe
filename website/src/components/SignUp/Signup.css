@@ -1,0 +1,36 @@
+
+.error-message2 {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px; /* Ensure it doesn't push the icon or input down */
+  bottom: 3px; /* Position the error message just below the input */
+  left: 0;
+  width: 100%; /* Span across the width of the container */
+}
+.password-strength {
+  font-size: 14px;
+  padding: 5px;
+  position: relative;
+}
+
+.strength-bar {
+  height: 4px;
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+
+.weak {
+  background-color: red;
+}
+
+.medium {
+  background-color: orange;
+}
+
+.strong {
+  background-color: green;
+}
+
+.very-strong {
+  background-color: darkgreen;
+}
