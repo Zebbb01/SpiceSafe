@@ -24,8 +24,8 @@ const Login = ({ setUser }) => {
     e.preventDefault();
     setLoading(true); // Start spinner when login is clicked
     try {
-      // const response = await axios.post('https://pepperhashsecure.onrender.com/login', { email, password }); // Domain HOSTED ON RENDER
-      const response = await axios.post('http://localhost:5000/login', { name, email, password }); // Domain ON LOCALHOST
+      const response = await axios.post('https://spicesafe.onrender.com/login', { email, password }); // Domain HOSTED ON RENDER
+      // const response = await axios.post('http://localhost:5000/login', { email, password }); // Domain ON LOCALHOST
       
       const { user } = response.data;
       setUser(user); // Now stores the user data
