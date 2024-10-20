@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__, static_folder='../frontend/build', static_url_path='/')
-CORS(app, origins=["https://pepper-hash-secure.vercel.app", "http://localhost:5173"])
+CORS(app, origins=["https://spice-safe.vercel.app", "http://localhost:5173"])
 
 PEPPER = os.getenv('PEPPER')
 DB_HOST = os.getenv('DB_HOST')
